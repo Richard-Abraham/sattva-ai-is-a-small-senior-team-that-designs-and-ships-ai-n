@@ -45,7 +45,7 @@ export const SITE_PAGES: PageData[] = [
           "primaryLabel": "Book a free consultation",
           "secondaryHref": "/work",
           "secondaryLabel": "See selected work",
-          "imageSrc": "https://images.unsplash.com/photo-1776090893591-90f5ea3fa523?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzb2Z0d2FyZSUyMGVuZ2luZWVyaW5nJTIwd29ya3NwYWNlfGVufDB8fHx8MTc4MzUxOTM2Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+          "imageSrc": "https://images.unsplash.com/photo-1776090893591-90f5ea3fa523?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzb2Z0d2FyZSUyMGVuZ2luZWVyaW5nJTIwd29ya3NwYWNlfGVufDB8fHx8MTc4MzUxNzQ3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         "headingColor": null,
         "textColor": null,
@@ -77,27 +77,27 @@ export const SITE_PAGES: PageData[] = [
           "logos": [
             {
               "name": "OpenAI",
-              "imageSrc": "https://images.unsplash.com/photo-1676299081847-824916de030a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxPcGVuQUl8ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1676299081847-824916de030a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxPcGVuQUl8ZW58MHx8fHwxNzgzNTE3NDczfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Anthropic",
-              "imageSrc": "https://images.unsplash.com/photo-1782513927216-d1b4610439f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBbnRocm9waWN8ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1782513927216-d1b4610439f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBbnRocm9waWN8ZW58MHx8fHwxNzgzNTE3NDczfDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "AWS",
-              "imageSrc": "https://images.unsplash.com/photo-1628296499994-70face79ab36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBV1N8ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1628296499994-70face79ab36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBV1N8ZW58MHx8fHwxNzgzNTE3NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Google Cloud",
-              "imageSrc": "https://images.unsplash.com/photo-1612873346068-1d4b76372235?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxHb29nbGUlMjBDbG91ZHxlbnwwfHx8fDE3ODM1MTkzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1612873346068-1d4b76372235?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxHb29nbGUlMjBDbG91ZHxlbnwwfHx8fDE3ODM1MTc0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Microsoft Azure",
-              "imageSrc": "https://images.unsplash.com/photo-1662947036644-ecfde1221ac7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxNaWNyb3NvZnQlMjBBenVyZXxlbnwwfHx8fDE3ODM1MTkzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1662947036644-ecfde1221ac7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxNaWNyb3NvZnQlMjBBenVyZXxlbnwwfHx8fDE3ODM1MTc0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Stripe",
-              "imageSrc": "https://images.unsplash.com/photo-1628699265231-97b2a3e7b9ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxTdHJpcGV8ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1628699265231-97b2a3e7b9ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxTdHJpcGV8ZW58MHx8fHwxNzgzNTE3NDczfDA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ],
           "heading": "Trusted by builders and operators"
@@ -153,7 +153,7 @@ export const SITE_PAGES: PageData[] = [
           "featuredLabel": "Production-ready AI systems",
           "featuredTitle": "Build AI that ships",
           "featuredDescription": "We design and deliver AI software that fits real constraints: data quality, existing systems, and business goals. Senior builders, direct collaboration, no handoff chain.",
-          "imageSrc": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxhaSUyMHNvZnR3YXJlJTIwdGVhbSUyMG1lZXRpbmd8ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          "imageSrc": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxhaSUyMHNvZnR3YXJlJTIwdGVhbSUyMG1lZXRpbmd8ZW58MHx8fHwxNzgzNTE3NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         "headingColor": null,
         "textColor": null,
@@ -191,7 +191,7 @@ export const SITE_PAGES: PageData[] = [
               ],
               "title": "Agent patterns that hold up",
               "imageAlt": "autonomous agent workspace",
-              "imageSrc": "https://images.unsplash.com/photo-1740560051651-c2010c37aa9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBZ2VudCUyMHBhdHRlcm5zJTIwdGhhdCUyMGhvbGQlMjB1cHxlbnwwfHx8fDE3ODM1MTkzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+              "imageSrc": "https://images.unsplash.com/photo-1740560051651-c2010c37aa9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBZ2VudCUyMHBhdHRlcm5zJTIwdGhhdCUyMGhvbGQlMjB1cHxlbnwwfHx8fDE3ODM1MTc0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
               "description": "New agent flows with tighter tool use, clearer state, and better failure recovery for production workloads."
             },
             {
@@ -202,7 +202,7 @@ export const SITE_PAGES: PageData[] = [
               ],
               "title": "Retrieval with better signal",
               "imageAlt": "enterprise search analytics",
-              "imageSrc": "https://images.unsplash.com/photo-1652643684001-ab895e1ff278?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxSZXRyaWV2YWwlMjB3aXRoJTIwYmV0dGVyJTIwc2lnbmFsfGVufDB8fHx8MTc4MzUxOTM2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+              "imageSrc": "https://images.unsplash.com/photo-1652643684001-ab895e1ff278?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxSZXRyaWV2YWwlMjB3aXRoJTIwYmV0dGVyJTIwc2lnbmFsfGVufDB8fHx8MTc4MzUxNzQ3NXww&ixlib=rb-4.1.0&q=80&w=1080",
               "description": "Improved RAG pipelines using hybrid search, reranking, and document-aware chunking for sharper answers."
             },
             {
@@ -213,7 +213,7 @@ export const SITE_PAGES: PageData[] = [
               ],
               "title": "Automation across systems",
               "imageAlt": "workflow automation dashboard",
-              "imageSrc": "https://images.unsplash.com/photo-1717386255777-ce60792a2a56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBdXRvbWF0aW9uJTIwYWNyb3NzJTIwc3lzdGVtc3xlbnwwfHx8fDE3ODM1MTkzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+              "imageSrc": "https://images.unsplash.com/photo-1717386255777-ce60792a2a56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBdXRvbWF0aW9uJTIwYWNyb3NzJTIwc3lzdGVtc3xlbnwwfHx8fDE3ODM1MTc0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
               "description": "Workflow automation that connects approvals, data updates, and notifications without brittle handoffs."
             },
             {
@@ -224,7 +224,7 @@ export const SITE_PAGES: PageData[] = [
               ],
               "title": "Commerce that feels native",
               "imageAlt": "commerce product interface",
-              "imageSrc": "https://images.unsplash.com/photo-1761059724846-5fd855abdf25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxDb21tZXJjZSUyMHRoYXQlMjBmZWVscyUyMG5hdGl2ZXxlbnwwfHx8fDE3ODM1MTkzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+              "imageSrc": "https://images.unsplash.com/photo-1761059724846-5fd855abdf25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxDb21tZXJjZSUyMHRoYXQlMjBmZWVscyUyMG5hdGl2ZXxlbnwwfHx8fDE3ODM1MTc0NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
               "description": "AI-native ecommerce experiences for guided discovery, merchandising, and support that convert without friction."
             }
           ],
@@ -290,17 +290,17 @@ export const SITE_PAGES: PageData[] = [
             {
               "name": "Maya Rao",
               "role": "Founder, Lead Architect",
-              "imageSrc": "https://images.unsplash.com/photo-1627024195469-5e96874be9a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxNYXlhJTIwUmFvfGVufDB8fHx8MTc4MzUxOTM2OHww&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1627024195469-5e96874be9a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxNYXlhJTIwUmFvfGVufDB8fHx8MTc4MzUxNzQ3Nnww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Daniel Cho",
               "role": "AI Systems Engineer",
-              "imageSrc": "https://images.unsplash.com/photo-1542909192-2f2241a99c9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxEYW5pZWwlMjBDaG98ZW58MHx8fHwxNzgzNTE5MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1542909192-2f2241a99c9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxEYW5pZWwlMjBDaG98ZW58MHx8fHwxNzgzNTE3NDc3fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Priya Nair",
               "role": "Product and Delivery Lead",
-              "imageSrc": "https://images.unsplash.com/photo-1729101143806-d3ba486b9a67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxQcml5YSUyME5haXJ8ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1729101143806-d3ba486b9a67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxQcml5YSUyME5haXJ8ZW58MHx8fHwxNzgzNTE3NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ]
         },
@@ -680,7 +680,7 @@ export const SITE_PAGES: PageData[] = [
           "featuredLabel": "Direct engagement",
           "featuredTitle": "Work with the builders",
           "featuredDescription": "You get a small senior team from scoping through delivery. We stay close to product decisions, architecture, and release quality.",
-          "imageSrc": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjB0ZWFtJTIwc3RyYXRlZ3klMjBzZXNzaW9ufGVufDB8fHx8MTc4MzUxOTM2Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+          "imageSrc": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjB0ZWFtJTIwc3RyYXRlZ3klMjBzZXNzaW9ufGVufDB8fHx8MTc4MzUxNzQ3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         "headingColor": null,
         "textColor": null,
@@ -930,7 +930,7 @@ export const SITE_PAGES: PageData[] = [
           "subheading": "See how a small senior team turns AI ideas into working systems with measurable business impact. Explore case studies or book a consultation if you need a clear path forward.",
           "primaryHref": "/contact",
           "primaryLabel": "Book a consultation",
-          "imageSrc": "https://images.unsplash.com/photo-1618758992354-364bbe07b3bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxhaSUyMHNvZnR3YXJlJTIwdGVhbXxlbnwwfHx8fDE3ODM1MTkzNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+          "imageSrc": "https://images.unsplash.com/photo-1618758992354-364bbe07b3bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxhaSUyMHNvZnR3YXJlJTIwdGVhbXxlbnwwfHx8fDE3ODM1MTc0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         "headingColor": null,
         "textColor": null,
@@ -1263,7 +1263,7 @@ export const SITE_PAGES: PageData[] = [
           "primaryLabel": "Learn more",
           "secondaryHref": "/contact",
           "secondaryLabel": "Book a consultation",
-          "imageSrc": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjBzb2Z0d2FyZSUyMHRlYW18ZW58MHx8fHwxNzgzNTE5MzY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          "imageSrc": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjBzb2Z0d2FyZSUyMHRlYW18ZW58MHx8fHwxNzgzNTE3NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         "headingColor": null,
         "textColor": null,
@@ -1297,17 +1297,17 @@ export const SITE_PAGES: PageData[] = [
             {
               "name": "Arjun Mehta",
               "role": "Founder and Lead Architect",
-              "imageSrc": "https://images.unsplash.com/photo-1613462540041-ccd487c9a985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBcmp1biUyME1laHRhfGVufDB8fHx8MTc4MzUxOTM2N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1613462540041-ccd487c9a985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxBcmp1biUyME1laHRhfGVufDB8fHx8MTc4MzUxNzQ3NHww&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Priya Nair",
               "role": "AI Systems Engineer",
-              "imageSrc": "https://images.unsplash.com/photo-1729101143806-d3ba486b9a67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxQcml5YSUyME5haXJ8ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1729101143806-d3ba486b9a67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxQcml5YSUyME5haXJ8ZW58MHx8fHwxNzgzNTE3NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
             },
             {
               "name": "Daniel Kim",
               "role": "Product and Delivery Lead",
-              "imageSrc": "https://images.unsplash.com/photo-1666966722000-6c9c61236728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxEYW5pZWwlMjBLaW18ZW58MHx8fHwxNzgzNTE5MzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              "imageSrc": "https://images.unsplash.com/photo-1666966722000-6c9c61236728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxEYW5pZWwlMjBLaW18ZW58MHx8fHwxNzgzNTE3NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
             }
           ]
         },
@@ -1359,8 +1359,8 @@ export const SITE_PAGES: PageData[] = [
           "primaryHref": "/contact",
           "primaryLabel": "Book a free consultation",
           "secondaryImageAlt": "product design workshop laptops",
-          "imageSrc": "https://images.unsplash.com/photo-1650433349342-3eefed21339f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxCdWlsdCUyMGJ5JTIwc2VuaW9yJTIwcHJhY3RpdGlvbmVyc3xlbnwwfHx8fDE3ODM1MTkzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "secondaryImageSrc": "https://images.unsplash.com/photo-1721466759653-5383d6be56cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwZGVzaWduJTIwd29ya3Nob3AlMjBsYXB0b3BzfGVufDB8fHx8MTc4MzUxOTM2N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+          "imageSrc": "https://images.unsplash.com/photo-1650433349342-3eefed21339f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxCdWlsdCUyMGJ5JTIwc2VuaW9yJTIwcHJhY3RpdGlvbmVyc3xlbnwwfHx8fDE3ODM1MTc0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "secondaryImageSrc": "https://images.unsplash.com/photo-1721466759653-5383d6be56cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwZGVzaWduJTIwd29ya3Nob3AlMjBsYXB0b3BzfGVufDB8fHx8MTc4MzUxNzQ3N3ww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         "headingColor": null,
         "textColor": null,
@@ -1610,7 +1610,7 @@ export const SITE_PAGES: PageData[] = [
           "subheading": "Talk directly with a senior team about what to build, how to ship it, and what will work in your stack. For startups and enterprises ready to move beyond prototypes.",
           "primaryHref": "/contact",
           "primaryLabel": "Start a conversation",
-          "imageSrc": "https://images.unsplash.com/photo-1690191864293-3fc9f1bd330b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjB0ZWFtJTIwcGxhbm5pbmclMjBzZXNzaW9ufGVufDB8fHx8MTc4MzUxOTM2Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+          "imageSrc": "https://images.unsplash.com/photo-1690191864293-3fc9f1bd330b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODA5OTd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjB0ZWFtJTIwcGxhbm5pbmclMjBzZXNzaW9ufGVufDB8fHx8MTc4MzUxNzQ3NHww&ixlib=rb-4.1.0&q=80&w=1080"
         },
         "headingColor": null,
         "textColor": null,
