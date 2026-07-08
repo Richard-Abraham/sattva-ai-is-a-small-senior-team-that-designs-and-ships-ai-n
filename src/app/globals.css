@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+:root {
+  --primary:          #7C3AED;
+  --primary-dark:     #6D28D9;
+  --primary-light:    #A855F7;
+  --accent:           #F3E8FF;
+  --background:       #FFFFFF;
+  --foreground:       #171717;
+  --border:           #E5E7EB;
+  --muted:            #F9FAFB;
+  --font-family:      Inter, system-ui, sans-serif;
+  --heading-font:     Inter, system-ui, sans-serif;
+  --font-size-base:   16px;
+  --border-radius:    8px;
+  --shadow:           0 1px 2px rgba(0,0,0,0.05), 0 1px 4px rgba(0,0,0,0.1);
+  --grad-bg:          linear-gradient(to bottom, var(--background), var(--muted));
+  --animation-enabled: 1;
+  /* Plan 113 — design foundation tokens */
+  --text-display:   clamp(2rem, 1.1rem + 4.6vw, 4.5rem);
+  --text-h1:        clamp(1.75rem, 1.1rem + 3vw, 3.25rem);
+  --text-h2:        clamp(1.45rem, 1.05rem + 1.8vw, 2.4rem);
+  --text-lead:      clamp(1.025rem, 0.97rem + 0.5vw, 1.3rem);
+  --tracking-tight: -0.02em;
+  --shadow-md:      0 4px 12px rgba(0,0,0,0.08);
+  --shadow-lg:      0 12px 32px rgba(0,0,0,0.10);
+  --shadow-xl:      0 24px 60px rgba(0,0,0,0.14);
+  --shadow-glow:    0 20px 60px -12px color-mix(in srgb, var(--primary) 45%, transparent);
+  --ease-out:       cubic-bezier(0.16, 1, 0.3, 1);
+  --reveal-dur:     0.7s;
+}
+
+@theme inline {
+  --color-background:   var(--background);
+  --color-foreground:   var(--foreground);
+  --color-primary:      var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-accent:       var(--accent);
+  --color-muted:        var(--muted);
+  --color-border:       var(--border);
+  --font-sans:          var(--font-family);
+  --font-heading:       var(--heading-font);
+  --radius:             var(--border-radius);
+  --text-base:          var(--font-size-base);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.rounded-xl  { border-radius: var(--border-radius); }
+.rounded-2xl { border-radius: calc(var(--border-radius) * 2); }
+.rounded-3xl { border-radius: calc(var(--border-radius) * 3); }
+
+/* ── Design foundation (Plan 113) — type scale ── */
+.text-display { font-family: var(--heading-font); font-size: var(--text-display); line-height: 1.04; letter-spacing: var(--tracking-tight); font-weight: 700; }
+.text-h1      { font-family: var(--heading-font); font-size: var(--text-h1); line-height: 1.1; letter-spacing: var(--tracking-tight); font-weight: 700; }
+.text-h2      { font-family: var(--heading-font); font-size: var(--text-h2); line-height: 1.15; letter-spacing: var(--tracking-tight); font-weight: 700; }
+.text-lead    { font-size: var(--text-lead); line-height: 1.6; }
+
+/* ── Elevation ── */
+.shadow-soft  { box-shadow: var(--shadow-lg); }
+.shadow-strong{ box-shadow: var(--shadow-xl); }
+.shadow-glow  { box-shadow: var(--shadow-glow); }
+
+/* ── Decorative surface glow (place behind hero/section content) ── */
+.surface-glow { position: relative; isolation: isolate; }
+.surface-glow::before {
+  content: ""; position: absolute; inset: -10% -5% auto -5%; height: 65%; z-index: -1;
+  background: radial-gradient(60% 80% at 50% 0%, color-mix(in srgb, var(--primary) 18%, transparent), transparent 70%);
+  pointer-events: none;
+}
+
+/* ── Gradient text accent ── */
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+/* ── Eyebrow pill ── */
+.eyebrow {
+  display: inline-block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--primary); background: var(--accent);
+  padding: 0.25rem 0.75rem; border-radius: 9999px; margin-bottom: 1rem;
+}
+
+/* ── Surfaces ── */
+.section-alt { background-color: var(--muted); }
+.glass-card  { background: color-mix(in srgb, var(--background) 70%, transparent); backdrop-filter: blur(12px); border: 1px solid color-mix(in srgb, var(--foreground) 8%, transparent); }
+
+/* ── Hover micro-interactions ── */
+.hover-lift  { transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out); }
+.hover-lift:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.hover-glow  { transition: box-shadow 0.3s ease, border-color 0.3s ease; }
+.hover-glow:hover { box-shadow: var(--shadow-glow); border-color: color-mix(in srgb, var(--primary) 40%, transparent); }
+
+/* ── Scroll-triggered reveal — JS-free (CSS scroll-driven). Degrades to fully visible
+   in browsers without animation-timeline, and disabled under reduced-motion. ── */
+@keyframes reveal-up { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal { animation: reveal-up var(--reveal-dur) var(--ease-out) both; animation-timeline: view(); animation-range: entry 0% cover 32%; }
+    .reveal-stagger > * { animation: reveal-up var(--reveal-dur) var(--ease-out) both; animation-timeline: view(); animation-range: entry 0% cover 40%; }
+    .reveal-stagger > *:nth-child(2) { animation-range: entry 5% cover 45%; }
+    .reveal-stagger > *:nth-child(3) { animation-range: entry 10% cover 50%; }
+    .reveal-stagger > *:nth-child(4) { animation-range: entry 15% cover 55%; }
+    .reveal-stagger > *:nth-child(n+5) { animation-range: entry 20% cover 60%; }
+  }
+}
